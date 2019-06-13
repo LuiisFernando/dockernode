@@ -44,7 +44,7 @@ version 3.
 
 service - is the name of you app (it could be any name, I put app)
 
-build - is to the run the commando docker build, the parameter DOT (.) it's to set the path, as the file on the root is used .
+build - is to run the command docker build, the parameter DOT (.) it's to set the path of dockerfile, as the file on the root is used .
 
 command - to run when start the app
 
@@ -54,5 +54,5 @@ volumes - is to copy the file after have a change on the code
 
 after all run the command to up the container:
 ```
-dockder-compose up
+docker-compose up
 ```
