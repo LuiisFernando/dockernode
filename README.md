@@ -3,7 +3,7 @@
 Project to learn how to create a dockerfile with docker and docker compose.
 Creating a container with docker running one project in nodejs
 
-Chek if docker is installed:
+Check if docker is installed:
 ```
 docker -v
 ```
@@ -44,13 +44,13 @@ version 3.
 
 service - is the name of you app (it could be any name, I put app)
 
-build - is to run the command docker build, the parameter DOT (.) it's to set the path of dockerfile, as the file on the root is used .
+build - is to run the command docker build, the parameter DOT (.) it's to set the path of dockerfile, as the file is on the root I set .(dot)
 
 command - to run when start the app
 
 ports - setting ports and redirects
 
-volumes - is to copy the file after have a change on the code
+volumes - is to copy the file after have any change on the code
 
 after all run the command to up the container:
 ```
